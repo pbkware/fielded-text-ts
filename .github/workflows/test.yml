@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - "**"
+  workflow_dispatch:
   pull_request:
 
 permissions:
@@ -27,5 +28,10 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run tests
+      - name: Run Web tests
         run: npm run test
+        working-directory: ./web
+
+      - name: Run Node tests
+        run: npm run test
+        working-directory: ./node
