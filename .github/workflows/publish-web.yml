@@ -37,7 +37,7 @@ jobs:
         working-directory: ${{ env.Workspace }}
 
       - name: Publish to npm
-        run: npm publish --provenance
+        run: npm stage publish --provenance --access public
         working-directory: ${{ env.Workspace }}
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

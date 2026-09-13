@@ -20,6 +20,10 @@
     "README.md",
     "LICENSE"
   ],
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
   "homepage": "https://pbkware.github.io/fielded-text-ts/web/",
   "repository": {
     "type": "git",
