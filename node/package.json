@@ -10,7 +10,7 @@
   "type": "module",
   "sideEffects": false,
   "engines": {
-    "node": ">=20"
+    "node": ">=24"
   },
   "exports": {
     ".": {
@@ -61,7 +61,7 @@
     "prettier": "npx prettier --write ."
   },
   "dependencies": {
-    "@pbkware/fielded-text-web": "^0.1.2"
+    "@pbkware/fielded-text-web": "^0.2.0"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
