@@ -1,6 +1,6 @@
 # Fielded Text TypeScript Node Library
 
-[![NPM version](https://img.shields.io/npm/v/@pbkware/fielded-text-node)](https://www.npmjs.com/package/@pbkware/fielded-text-node) [![License](https://img.shields.io/github/license/pbkware/fielded-text-node)](https://github.com/pbkware/fielded-text-node/blob/main/LICENSE)
+[![NPM version](https://img.shields.io/npm/v/@pbkware/fielded-text-node)](https://www.npmjs.com/package/@pbkware/fielded-text-node) [![License](https://img.shields.io/github/license/pbkware/fielded-text-node)](https://github.com/pbkware/fielded-text-ts/blob/main/LICENSE)
 
 This library allows you to read (parse) and write (generate) files with CSV like text data in manner similar to reading and writing from/to databases. It does this by associating a schema (called Meta) with the text data.
 

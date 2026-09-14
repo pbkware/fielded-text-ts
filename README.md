@@ -1,7 +1,7 @@
 # Fielded Text TypeScript Library (for web)
 
-[![Web NPM version](https://img.shields.io/npm/v/@pbkware/fielded-text-web)](https://www.npmjs.com/package/@pbkware/fielded-text-web) [![Web License](https://img.shields.io/github/license/pbkware/fielded-text-web)](https://github.com/pbkware/fielded-text-web/blob/main/LICENSE)\
-[![Node NPM version](https://img.shields.io/npm/v/@pbkware/fielded-text-node)](https://www.npmjs.com/package/@pbkware/fielded-text-node) [![Node License](https://img.shields.io/github/license/pbkware/fielded-text-node)](https://github.com/pbkware/fielded-text-node/blob/main/LICENSE)
+[![Web NPM version](https://img.shields.io/npm/v/@pbkware/fielded-text-web)](https://www.npmjs.com/package/@pbkware/fielded-text-web) [![Web License](https://img.shields.io/github/license/pbkware/fielded-text-web)](https://github.com/pbkware/fielded-text-ts/blob/main/LICENSE)\
+[![Node NPM version](https://img.shields.io/npm/v/@pbkware/fielded-text-node)](https://www.npmjs.com/package/@pbkware/fielded-text-node) [![Node License](https://img.shields.io/github/license/pbkware/fielded-text-node)](https://github.com/pbkware/fielded-text-ts/blob/main/LICENSE)
 
 This repository contains 2 libraries for reading (parsing) and writing (generating) text data whose lines consists of fields (eg. CSV, TSV and text data with fixed length fields).  They work by associating a schema (called Meta) with the text data which allows reading and writing text data in a manner similar to reading and writing from/to databases.
 
