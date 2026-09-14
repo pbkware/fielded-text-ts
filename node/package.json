@@ -32,7 +32,7 @@
   "homepage": "https://pbkware.github.io/fielded-text-ts/node/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pbkware/fielded-text-node.git",
+    "url": "git+https://github.com/pbkware/fielded-text-ts.git",
     "directory": "node"
   },
   "bugs": {
