@@ -65,7 +65,7 @@
     "prettier": "npx prettier --write ."
   },
   "dependencies": {
-    "@pbkware/fielded-text-web": "^0.2.0"
+    "@pbkware/fielded-text-web": "^0.2.1"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
