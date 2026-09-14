@@ -28,6 +28,10 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Build web dependency
+        run: npm run dist
+        working-directory: ./web
+
       - name: Build package
         run: npm run dist
         working-directory: ${{ env.Workspace }}
