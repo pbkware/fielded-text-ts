@@ -66,7 +66,7 @@ See [Change Log](https://pbkware.github.io/fielded-text-ts/Change_Log/) for chan
   - [Meta data](https://pbkware.github.io/fielded-text-ts/Web/Guides/Meta_data/)
   - [Reading](https://pbkware.github.io/fielded-text-ts/Web/Guides/Reading/)
   - [Tables](https://pbkware.github.io/fielded-text-ts/Web/Guides/Tables/)
-- **[Files](https://pbkware.github.io/fielded-text-ts/node/Files/)**
+- **[Files](https://pbkware.github.io/fielded-text-ts/Node/Files/)**
 - **Examples** - Small examples that demonstrate various capabilities
   - [Web](https://pbkware.github.io/fielded-text-ts/Web/Guides/Examples/)
   - [Node](https://pbkware.github.io/fielded-text-ts/Node/Examples)
