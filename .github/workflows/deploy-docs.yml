@@ -30,11 +30,11 @@ jobs:
 
       - name: Build web dependency
         run: npm run dist
-        working-directory: ../web
+        working-directory: ./web
 
       - name: Build node dependency
         run: npm run dist
-        working-directory: ../node
+        working-directory: ./node
 
       - name: Build docs
         run: npm run docs
