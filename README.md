@@ -1,4 +1,4 @@
-# Fielded Text TypeScript Library (for web)
+# Fielded Text TypeScript Libraries
 
 [![Web NPM version](https://img.shields.io/npm/v/@pbkware/fielded-text-web)](https://www.npmjs.com/package/@pbkware/fielded-text-web) [![Web License](https://img.shields.io/github/license/pbkware/fielded-text-web)](https://github.com/pbkware/fielded-text-ts/blob/main/LICENSE)\
 [![Node NPM version](https://img.shields.io/npm/v/@pbkware/fielded-text-node)](https://www.npmjs.com/package/@pbkware/fielded-text-node) [![Node License](https://img.shields.io/github/license/pbkware/fielded-text-node)](https://github.com/pbkware/fielded-text-ts/blob/main/LICENSE)

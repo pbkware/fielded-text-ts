@@ -2,11 +2,11 @@
 title: Change Log
 ---
 
-## Node: Version 0.1.0 (based on Web 0.2.1)
+## Node: Version 0.1.1 (based on Web 0.2.2)
 
 First release
 
-## Web: Version 0.2.1 (**Breaking Changes**)
+## Web: Version 0.2.2 (**Breaking Changes**)
 
 * Rework API for accessing field values
 
