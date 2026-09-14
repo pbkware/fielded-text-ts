@@ -18,6 +18,8 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      Workspace: ./docs
 
     steps:
       - name: Checkout repository
@@ -28,14 +30,16 @@ jobs:
 
       - name: Build dist
         run: npm run dist
+        working-directory: ${{ env.Workspace }}
 
       - name: Build docs
         run: npm run docs
+        working-directory: ${{ env.Workspace }}
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
         with:
-          path: ./docs/dist
+          path: ${{ env.Workspace }}/docs/dist
 
   deploy:
     environment:

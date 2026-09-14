@@ -15,7 +15,6 @@
     "examples"
   ],
   "scripts": {
-    "docs": "npm run --workspace=docs docs",
     "examples": "npm run --workspace=examples examples:all"
   }
 }
