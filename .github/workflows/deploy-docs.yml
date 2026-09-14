@@ -28,9 +28,13 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build dist
+      - name: Build web dependency
         run: npm run dist
-        working-directory: ${{ env.Workspace }}
+        working-directory: ../web
+
+      - name: Build node dependency
+        run: npm run dist
+        working-directory: ../node
 
       - name: Build docs
         run: npm run docs
